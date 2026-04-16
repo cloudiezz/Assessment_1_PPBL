@@ -389,21 +389,6 @@ class _SimpleFormPageState extends State<SimpleFormPage> {
                       ),
                     ],
                   ),
-
-                  const SizedBox(height: 12),
-
-                  // Indikator validasi sederhana
-                  if (!form.valid)
-                    Container(
-                      padding: const EdgeInsets.symmetric(vertical: 8),
-                      child: Text(
-                        '⚠️ Form belum lengkap, periksa kembali',
-                        style: TextStyle(
-                          fontSize: 12,
-                          color: Colors.pink.shade400,
-                        ),
-                      ),
-                    ),
                 ],
               ),
             ),
